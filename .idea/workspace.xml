@@ -1,14 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9202691a-683f-4294-be2c-b63ac4cec613" name="Changes" comment="" />
+    <list default="true" id="9202691a-683f-4294-be2c-b63ac4cec613" name="Changes" comment="Created MyList.java">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prelims/ListOverflowException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prelims/MyFixedSizeArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prelims/MyGrowingArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2E7J9TzPDpp9Ly87tutZq0rYpT3" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -20,9 +36,59 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
+  <component name="RunManager" selected="Application.TestToDoList">
+    <configuration name="MyFixedSizeArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="prelims.MyFixedSizeArrayList" />
+      <module name="RhyenDataStructuresImplementation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="prelims.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="prelims.Test" />
+      <module name="RhyenDataStructuresImplementation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="prelims.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestToDoList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="prelims.TestToDoList" />
+      <module name="RhyenDataStructuresImplementation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="prelims.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestToDoList" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.MyFixedSizeArrayList" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -31,8 +97,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661940539773</updated>
+      <workItem from="1661940541037" duration="4601000" />
     </task>
+    <task id="LOCAL-00001" summary="Created MyList.java">
+      <created>1661940871427</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661940871427</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -44,5 +122,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created MyList.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created MyList.java" />
   </component>
 </project>
