@@ -15,4 +15,5 @@ public interface MyList <E>
 
     public boolean search(E data);
 
+    public void print();
 }

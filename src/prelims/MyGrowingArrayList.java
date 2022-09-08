@@ -1,13 +1,27 @@
 package prelims;
 
 import java.util.NoSuchElementException;
+import java.util.Scanner;
+
 public class MyGrowingArrayList<E> implements MyList<E>
 {
-    public Object[]  list;
+    int studentId, age, yearOfGrad; //data
+    public static MyGrowingArrayList head=null; //head of the list
+    MyGrowingArrayList next;
+    public static Object[]  list;
     public int size = 0;
+    static Scanner scanner = new Scanner(System.in);
+    static Scanner sc = new Scanner(System.in);
+//    MyGrowingArrayList call = new MyGrowingArrayList();
 
     public MyGrowingArrayList() {
         this.list = new Object[5];
+    }
+    MyGrowingArrayList(int id, int age, int year){ //constructor
+        this.studentId = id;
+        this.age = age;
+        this.yearOfGrad = year;
+        this.next = null;
     }
 
     @Override
@@ -31,7 +45,6 @@ public class MyGrowingArrayList<E> implements MyList<E>
 
         list[size] = data;
         size++;
-
     }
 
     @Override
@@ -84,6 +97,10 @@ public class MyGrowingArrayList<E> implements MyList<E>
         return exists;
     }
 
+    @Override
+    public void print() {
+
+    }
 
 
     public String toString() {
@@ -102,6 +119,43 @@ public class MyGrowingArrayList<E> implements MyList<E>
         str.append("");
         return str.toString();
     }
-
-}
+        //Below are additional methods for implementation of the additional task application
+        //To be invoked in a tester class
+//    public void run() {
+//        String op = "Y";
+//        String choice = "";
+//        while (op.equals("Y") || op.equals("y")) { //checking whether to continue
+//            System.out.println("Enter the option");//showing the options
+//            System.out.println("1. Add");
+//            System.out.println("2. Delete");
+//            System.out.println("3. Search");
+//            System.out.println("4. Display");
+//            choice = sc.nextLine(); //getting choice and executing the method
+//            if (choice.equals("1") || choice.toLowerCase().equals("add")) {
+//                System.out.print("Enter a number: ");
+//                int x;
+//                x=sc.nextInt();
+//                call.insert(x);
+//                System.out.println(call.toString());
+//            } else if (choice.equals("2") || choice.toLowerCase().equals("delete")) {
+//                System.out.print("Enter a number: ");
+//                int x;
+//                x=sc.nextInt();
+//                call.getElement(x);
+//                call.delete(x);
+//            } else if (choice.equals("3") || choice.toLowerCase().equals("search")) {
+////                LinkedList.searchNode();
+//                System.out.print("Enter a number: ");
+//                int x;
+//                x=sc.nextInt();
+//                System.out.println(call.search(x));
+//            } else if (choice.equals("4") || choice.toLowerCase().equals("display")) {
+//                System.out.println(call.toString());
+//            }
+//            System.out.println("PRESS Y or y to do another operation otherwise press any key to exit");
+//            sc = new Scanner(System.in);
+//            op = sc.nextLine();
+//        }
+//    }
+    }
 
