@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9202691a-683f-4294-be2c-b63ac4cec613" name="Changes" comment="Created required classes">
-      <change afterPath="$PROJECT_DIR$/src/prelims/ListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prelims/ListTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prelims/MyDoublyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prelims/MyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prelims/MySinglyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prelims/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prelims/MyFixedSizeArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prelims/MyFixedSizeArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prelims/MyGrowingArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prelims/MyGrowingArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prelims/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prelims/MyList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +123,7 @@
       <option name="presentableId" value="Default" />
       <updated>1661940539773</updated>
       <workItem from="1661940541037" duration="27739000" />
-      <workItem from="1662602954132" duration="519000" />
+      <workItem from="1662602954132" duration="4044000" />
     </task>
     <task id="LOCAL-00001" summary="Created MyList.java">
       <created>1661940871427</created>
